@@ -1,0 +1,13 @@
+.ButtonMenu {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row {
+    background-color: black;
+    height: 5px;
+    width: 100%;
+}
