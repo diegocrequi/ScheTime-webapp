@@ -1,5 +1,5 @@
-import Diary from "./Diary/Diary"
-import Header from "./Header/Header"
+import Diary from "./organism/Diary/Diary"
+import Header from "./organism/Header/Header"
 
 const App = () => {
   return (

@@ -1,7 +1,8 @@
 import "./Header.css";
 
-import ButtonMenu from "../ButtonMenu/ButtonMenu";
-import H1 from "../H1/H1";
+import ButtonMenu from "../../atoms/ButtonMenu/ButtonMenu";
+import H1 from "../../atoms/H1/H1";
+import Hr from "../../atoms/Hr/Hr";
 
 const Header = () => {
     return <>
@@ -14,7 +15,7 @@ const Header = () => {
         </div>
         <div className="profileDiv">profile</div>
     </header>
-    <hr />
+    <Hr />
     </>
 }
 
