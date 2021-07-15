@@ -1,7 +1,12 @@
-.DiaryInput {
+.InputDiary {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 98%;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 1px grey solid;
 }
 
 .input {
@@ -9,8 +14,4 @@
     align-items: center;
     width: 100%;
     height: 3rem;
-    border-top: hidden;
-    border-left: hidden;
-    border-right: hidden;
-    border-bottom: 1px grey solid;
 }

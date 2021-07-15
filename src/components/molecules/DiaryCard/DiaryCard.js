@@ -1,7 +1,7 @@
 import "./DiaryCard.css";
 
 import H3 from "../../atoms/H3/H3"
-import DiaryInput from "../../atoms/DiaryInput/DiaryInput";
+import InputDiary from "../../atoms/InputDiary/InputDiary";
 import Hr from "../../atoms/Hr/Hr";
 
 const DiaryCard = (props) => {
@@ -11,7 +11,7 @@ const DiaryCard = (props) => {
         <H3>{title}</H3>
         <Hr />
         <div className="inputDiv">
-        <DiaryInput />
+        <InputDiary />
         </div>
         
     </article>
